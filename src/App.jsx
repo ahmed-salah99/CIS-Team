@@ -55,7 +55,7 @@ function App() {
       return;
     }
 
-    setError('اسم المستخدم أو كلمة المرور غير صحيحة');
+    setError('Invalid username or password.');
     setIsShaking(true);
     window.setTimeout(() => setIsShaking(false), 400);
     setPassword('');
