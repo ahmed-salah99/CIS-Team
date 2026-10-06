@@ -75,7 +75,7 @@ function App() {
           </div>
           <h1 id="login-title">مدارس البسام</h1>
           <div className="en">AL-BASSAM SCHOOLS</div>
-          {/* <p>CIS Team Evaluation Visit 2026 — Log in to follow up</p> */}
+          <p>CIS Team Evaluation Visit 2026 — Log in to follow up</p>
         </header>
 
         <form id="loginForm" onSubmit={handleSubmit} autoComplete="off" noValidate>
