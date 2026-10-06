@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react';
 import logo from './Logo.png';
 
-const VALID_USER = 'bassam2026';
-const VALID_PASS = 'bassam@2026';
+const VALID_USER = 'Bassam Schools';
+const VALID_PASS = 'Bassam@2026';
 const TARGET_URL = 'https://sites.google.com/view/cis-team-evaluation-visit-2026?usp=sharing';
 
 const UserIcon = () => (
@@ -133,7 +133,7 @@ function App() {
           {error && <div className="error" role="alert">{error}</div>}
 
           <button style={{color:"whitw"}} type="submit" className="submit"   disabled={isSubmitting}>
-            {isSubmitting ? 'جارٍ التحويل...' : 'Log in'}
+            {isSubmitting ? '... Loding' : 'Login'}
           </button>
         </form>
 
